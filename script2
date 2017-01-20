@@ -79,8 +79,8 @@ cmake \
     make install
     # Installing: /Users/adamgradzki/.pyenv/versions/3.6.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so
     
-    pyenv virtualenv 3.6.0 main
-    pyenv global main
+    pyenv virtualenv 3.6.0 cv
+    pyenv global cv
     pip install -U pip setuptools wheel numpy
     ln -s "/usr/local/var/pyenv/versions/3.6.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so" \
         "/usr/local/var/pyenv/versions/main/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so"
