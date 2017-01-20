@@ -1,12 +1,4 @@
-# step 3. install numpy
-pip install -U pip setuptools wheel cython numpy
 
-# step 4. build opencv
-sudo mkdir -p /opt/src
-sudo chown $(whoami):staff /opt
-sudo chown $(whoami):staff /opt/src
-cd /opt/src
-curl -L https://github.com/opencv/opencv/archive/3.2.0.zip -o opencv32.zip
 curl -L https://github.com/opencv/opencv_contrib/archive/3.2.0.zip -o opencv32contrib.zip
 unzip opencv32.zip
 unzip opencv32contrib.zip
