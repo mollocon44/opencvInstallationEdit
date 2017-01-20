@@ -1,4 +1,5 @@
-
+cd /opt/src
+curl -L https://github.com/opencv/opencv/archive/3.2.0.zip -o opencv32.zip
 curl -L https://github.com/opencv/opencv_contrib/archive/3.2.0.zip -o opencv32contrib.zip
 unzip opencv32.zip
 unzip opencv32contrib.zip
@@ -39,5 +40,3 @@ cmake \
     pip install -U pip setuptools wheel numpy
     ln -s "/usr/local/var/pyenv/versions/3.6.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so" \
         "/usr/local/var/pyenv/versions/main/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so"
-}
-run
